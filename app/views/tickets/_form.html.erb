@@ -17,11 +17,11 @@
   </div>
   <div class="field">
     <%= f.label :submitted_by_user_id %><br>
-    <%= f.number_field :submitted_by_user_id %>
+    <%= collection_select(:ticket, :submitted_by_user_id, User.all, :id, :name, prompt: true) %>
   </div>
   <div class="field">
     <%= f.label :assigned_to_user_id %><br>
-    <%= f.number_field :assigned_to_user_id %>
+    <%= collection_select(:ticket, :assigned_to_user_id , User.all, :id, :name, prompt: true) %>
   </div>
   <div class="field">
     <%= f.label :reported_by %><br>
