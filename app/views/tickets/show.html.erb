@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @ticket.title %>
+</p>
+
+<p>
+  <strong>Submitted by user:</strong>
+  <%= @ticket.submitted_by_user_id %>
+</p>
+
+<p>
+  <strong>Assigned to user:</strong>
+  <%= @ticket.assigned_to_user_id %>
+</p>
+
+<p>
+  <strong>Reported by:</strong>
+  <%= @ticket.reported_by %>
+</p>
+
+<p>
+  <strong>Spark room:</strong>
+  <%= @ticket.spark_room_id %>
+</p>
+
+<p>
+  <strong>Contact info phone:</strong>
+  <%= @ticket.contact_info_phone %>
+</p>
+
+<p>
+  <strong>Contact info email:</strong>
+  <%= @ticket.contact_info_email %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @ticket.notes %>
+</p>
+
+<%= link_to 'Edit', edit_ticket_path(@ticket) %> |
+<%= link_to 'Back', tickets_path %>

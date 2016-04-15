@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  submitted_by_user_id: 1
+  assigned_to_user_id: 1
+  reported_by: MyString
+  spark_room_id: MyString
+  contact_info_phone: MyString
+  contact_info_email: MyString
+  notes: MyText
+
+two:
+  title: MyString
+  submitted_by_user_id: 1
+  assigned_to_user_id: 1
+  reported_by: MyString
+  spark_room_id: MyString
+  contact_info_phone: MyString
+  contact_info_email: MyString
+  notes: MyText
